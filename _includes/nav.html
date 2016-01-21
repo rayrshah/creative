@@ -35,6 +35,13 @@
                     {% endif %}
                               <a class="page-scroll" href="/portfolio.html">Portfolio</a>
                         </li>
+                    {% if page.url == "/blog.html" %}
+                          <li class="active">
+                    {% else %}
+                          <li>
+                    {% endif %}
+                          <a class="page-scroll" href="/blog.html">Blog</a>
+                        </li>
                     {% if page.url == '/contact.html' %}
                         <li class="active">
                     {% else %}
